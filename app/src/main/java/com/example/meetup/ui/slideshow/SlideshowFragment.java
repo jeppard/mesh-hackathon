@@ -10,18 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.meetup.databinding.FragmentSlideshowBinding;
+import com.example.meetup.databinding.FragmentSportpageBinding;
 
 public class SlideshowFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentSportpageBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         SlideshowViewModel slideshowViewModel =
                 new ViewModelProvider(this).get(SlideshowViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentSportpageBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;

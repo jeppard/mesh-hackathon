@@ -13,6 +13,9 @@
     <string name="sommercamps">Sommercamps</string>
     <string name="jugendtreffpunkte">JugendTreffpunkte</string>
     <string name="wann_wo_wer">Wann? Wo? Wer?</string>
-    <string name="sonstiges">sonstiges</string>
     <string name="todo">TODO</string>
+    <string name="sportangebote">Sportangebote</string>
+    <string name="menu_sportpage">Sportangebote</string>
+    <string name="menu_onlinegames">Online Games</string>
+    <string name="menu_languagelesson">Sprachkurse</string>
 </resources>

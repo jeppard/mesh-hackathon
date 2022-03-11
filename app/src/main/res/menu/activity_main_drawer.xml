@@ -5,16 +5,24 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_summercamp"
             android:icon="@android:drawable/ic_dialog_map"
             android:title="@string/menu_summercamp" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_youthmeetingpoint"
             android:icon="@android:drawable/ic_menu_myplaces"
             android:title="@string/menu_meetingpoint" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@android:drawable/ic_dialog_info"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_sportpage"
+            android:icon="@mipmap/ic_sport_foreground"
+            android:title="@string/menu_sportpage" />
+        <item
+            android:id="@+id/nav_onlinegames"
+            android:icon="@android:drawable/stat_sys_headset"
+            android:title="@string/menu_onlinegames" />
+        <item
+            android:id="@+id/nav_languageLesson"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="@string/menu_languagelesson" />
     </group>
 </menu>

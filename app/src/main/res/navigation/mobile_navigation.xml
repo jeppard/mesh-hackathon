@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_summercamp">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_summercamp"
         android:name="com.example.meetup.ui.home.HomeFragment"
         android:label="@string/menu_summercamp"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_summercamp" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_youthmeetingpoint"
         android:name="com.example.meetup.ui.gallery.GalleryFragment"
         android:label="@string/menu_meetingpoint"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_youthmeetingpoint" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_sportpage"
         android:name="com.example.meetup.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_sportpage" />
 </navigation>

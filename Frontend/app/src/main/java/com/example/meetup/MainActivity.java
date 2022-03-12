@@ -23,13 +23,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.meetup.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
-
+    ImageButton editbtn = findViewById(R.id.editBtn);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        editbtn.setOnClickListener(this::editProfile);
 
         super.onCreate(savedInstanceState);
 
@@ -48,6 +50,16 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
     }
+
+    @Override
+    public void onClick(View v) {
+        if(v.getId() == R.id.editBtn)
+        {
+            getSupportFragmentManager().beginTransaction().replace(R.id.container, new LoginFragment()).commit();
+            editbtn.setVisibility(View.GONE);
+        }
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

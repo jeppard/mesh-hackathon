@@ -102,3 +102,4 @@ lint/tmp/
 .externalNativeBuild
 .cxx
 local.properties
+Frontend/.idea/

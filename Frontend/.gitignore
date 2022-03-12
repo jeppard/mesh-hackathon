@@ -88,6 +88,7 @@ lint/tmp/
 *.iml
 .gradle
 /local.properties
+/app/src/main/res/.idea
 /app/src/main/res/.idea/caches
 /app/src/main/res/.idea/libraries
 /app/src/main/res/.idea/modules.xml
@@ -100,3 +101,4 @@ lint/tmp/
 .externalNativeBuild
 .cxx
 local.properties
+.idea/

@@ -1,11 +1,14 @@
 package com.example.meetup;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.meetup.ui.ui.login.LoginFragment;
+import com.example.meetup.ui.ui.login.LoginViewModel;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -54,9 +57,13 @@ public class MainActivity extends AppCompatActivity {
 
         editbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
+                editProfil();
             }
         });
+    }
+
+    private void editProfil() {
+        //open popup to configurate login information
     }
 
     @Override

@@ -22,4 +22,16 @@
         android:name="com.example.meetup.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_sportpage" />
+
+    <fragment
+        android:id="@+id/nav_onlinegames"
+        android:name="com.example.meetup.ui.onlinegames.OnlineGamesFragment"
+        android:label="@string/menu_onlinegames"
+        tools:layout="@layout/fragment_online_games" />
+
+    <fragment
+        android:id="@+id/nav_languageLesson"
+        android:name="com.example.meetup.ui.languagelesson.LanguageLessonFragment"
+        android:label="@string/menu_languagelesson"
+        tools:layout="@layout/language_lesson_fragment" />
 </navigation>

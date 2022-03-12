@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
-    ImageButton editbtn = findViewById(R.id.editBtn);
+    //ImageButton editbtn = findViewById(R.id.editBtn);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-		editbtn.setOnClickListener(this::editProfile);
+		//editbtn.setOnClickListener(this::editProfile);
 
         super.onCreate(savedInstanceState);
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v.getId() == R.id.editBtn)
         {
             getSupportFragmentManager().beginTransaction().replace(R.id.container, new LoginFragment()).commit();
-            editbtn.setVisibility(View.GONE);
+            //editbtn.setVisibility(View.GONE);
         }
     }
 

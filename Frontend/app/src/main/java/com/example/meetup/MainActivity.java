@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
@@ -47,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+//        ImageButton editbtn = findViewById(R.id.editBtn);
+//        editbtn.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                editProfil();
+//            }
+//        });
     }
 
     @Override
@@ -64,7 +69,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void editProfile(View view) {
-        ImageButton editbtn = findViewById(R.id.editBtn);
-
     }
 }

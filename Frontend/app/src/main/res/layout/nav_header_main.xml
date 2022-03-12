@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:background="#00FFFFFF"
-        android:onClick="editUserInfo()"
+        android:onClick="editUserInfo"
         app:srcCompat="@android:drawable/ic_menu_edit" />
 
     <ImageView

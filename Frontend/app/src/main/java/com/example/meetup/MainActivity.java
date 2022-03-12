@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ImageButton editbtn = findViewById(R.id.editBtn);
+
 
         super.onCreate(savedInstanceState);
 
@@ -55,11 +55,12 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        editbtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                editProfil();
-            }
-        });
+//        ImageButton editbtn = findViewById(R.id.editBtn);
+//        editbtn.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                editProfil();
+//            }
+//        });
     }
 
     private void editProfil() {

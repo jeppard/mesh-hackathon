@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        editbtn.setOnClickListener(this::editProfile);
+		editbtn.setOnClickListener(this::editProfile);
 
         super.onCreate(savedInstanceState);
 
@@ -76,7 +76,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void editProfile(View view) {
-        ImageButton editbtn = findViewById(R.id.editBtn);
-
     }
 }

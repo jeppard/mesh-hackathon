@@ -87,6 +87,7 @@ lint/tmp/
 # Android Studio
 *.iml
 .gradle
+/.ides/misc.xml
 /local.properties
 /.idea/misc.xml
 /.idea/caches

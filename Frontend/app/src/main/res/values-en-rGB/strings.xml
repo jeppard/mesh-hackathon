@@ -35,4 +35,8 @@
     <string name="optional">Optional inputs</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="username">Username</string>
+    <string name="meine_termine">My Plans</string>
+    <string name="freunde_einladen">Invite Friends</string>
+    <string name="meine_angebote">My Ads</string>
+    <string name="benachrichtigungen">Message</string>
 </resources>

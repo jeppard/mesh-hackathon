@@ -35,4 +35,8 @@
     <string name="optional">Optionale Eingaben</string>
     <string name="username">Benutzername</string>
     <string name="confirm_password">Passwort bestätigen</string>
+    <string name="meine_termine">Meine Termine</string>
+    <string name="meine_angebote">MeineAngebote</string>
+    <string name="freunde_einladen">Freunde einladen</string>
+    <string name="benachrichtigungen">Benachrichtigungen</string>
 </resources>

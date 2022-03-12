@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/Frontend/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/Frontend/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/Frontend/app/src/main/res/layout/fragment_online_games.xml" value="0.25" />
+        <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/Frontend/app/src/main/res/layout/fragment_sportpage.xml" value="0.25" />
+        <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/Frontend/app/src/main/res/layout/fragment_startseite_details.xml" value="0.536" />
+        <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/Frontend/app/src/main/res/layout/fragment_summercamp.xml" value="0.264" />
+        <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/Frontend/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/app/src/main/res/layout/activity_main.xml" value="0.2747395833333333" />
         <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/app/src/main/res/layout/app_bar_main.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/app/src/main/res/layout/content_main.xml" value="0.12158054711246201" />
@@ -12,7 +19,7 @@
         <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
         <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
         <entry key="..\:/Users/Lavinia/StudioProjects/mesh-hackathon/app/src/main/res/menu/main.xml" value="0.21944444444444444" />
-        </map>
+      </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />

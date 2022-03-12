@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="59dp">
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="202dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view"
@@ -101,13 +101,12 @@
                     </LinearLayout>
                 </RelativeLayout>
 
-                <LinearLayout
-                    xmlns:android="http://schemas.android.com/apk/res/android"
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:gravity="right|end"
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/button"
@@ -208,13 +207,13 @@
                     </LinearLayout>
                 </RelativeLayout>
 
-                <LinearLayout
-                    xmlns:android="http://schemas.android.com/apk/res/android"
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:gravity="right|end"
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/button6"
                         android:layout_width="100dp"
@@ -314,13 +313,13 @@
                     </LinearLayout>
                 </RelativeLayout>
 
-                <LinearLayout
-                    xmlns:android="http://schemas.android.com/apk/res/android"
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:gravity="right|end"
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/button11"
                         android:layout_width="100dp"
@@ -420,13 +419,13 @@
                     </LinearLayout>
                 </RelativeLayout>
 
-                <LinearLayout
-                    xmlns:android="http://schemas.android.com/apk/res/android"
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:gravity="right|end"
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:orientation="horizontal">
+
                     <Button
                         android:id="@+id/button12"
                         android:layout_width="100dp"

@@ -42,4 +42,8 @@
     <string name="online_games">Online Games</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_email">E-Mail</string>
+    <string name="meine_termine">Meine Termine</string>
+    <string name="meine_angebote">MeineAngebote</string>
+    <string name="benachrichtigungen">Benachrichtigungen</string>
+    <string name="freunde_einladen">Freunde einladen</string>
 </resources>

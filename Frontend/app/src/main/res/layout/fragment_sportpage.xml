@@ -6,21 +6,197 @@
     android:layout_height="match_parent"
     tools:context=".ui.slideshow.SlideshowFragment">
 
+
     <TextView
         android:id="@+id/text_slideshow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="374dp"
+        android:layout_height="30dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/sportangebote"
-        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:text="Beschreibung:"
+        android:textAlignment="viewStart"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:text="Hallo, wir suchen noch Interessierte, die mit uns Eislaufen gehen wollen. Wir gehen regelmäßig in die Eiswelt Stuttgart (https://www.stuttgart.de/eiswelt). Falls ihr Lust habt könnt ihr mich gerne per Mail kontaktieren."
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:text="Aufgrund der aktuellen Situation müssen leider Tickets unter folgendem Link https://www.stuttgart-bewegt-sich.de/entdecke/eiswelt/angebote online gebucht werden."
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="430dp"
+        android:layout_height="276dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/media_media_777b90ce_5b85_42ba_9dc3_efe44add4f2c_original1920"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="378dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="374dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="17dp"
+                tools:layout_editor_absoluteY="325dp">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="233dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="9dp"
+                    android:gravity="start"
+                    android:text="13"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-200dp"
+                    android:gravity="start"
+                    android:text="@string/maerz_2022" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-230dp"
+                    android:gravity="start"
+                    android:text="19:00 Uhr" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="right|end"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BAC63A"
+                    android:gravity="center"
+                    android:text="@string/teilnehmen"
+                    android:textAllCaps="false"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_width="378dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="374dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="17dp"
+                tools:layout_editor_absoluteY="325dp">
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="233dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="9dp"
+                    android:gravity="start"
+                    android:text="Kontakt"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-120dp"
+                    android:gravity="start"
+                    android:text="Max Mustermann" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="right|end"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BAC63A"
+                    android:gravity="center"
+                    android:text="Kontaktieren"
+                    android:textAllCaps="false"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

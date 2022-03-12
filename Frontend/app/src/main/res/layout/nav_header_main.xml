@@ -26,19 +26,22 @@
             android:layout_gravity="end"
             android:background="#00FFFFFF"
             android:onClick="editProfile"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            app:tint="#000000" />
     </FrameLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="RDJ"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:text="Max Mustermann"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="beispiel@gmail.com" />
+        android:text="max.mustermann@gmail.com"
+        android:textColor="#000000" />
 </LinearLayout>

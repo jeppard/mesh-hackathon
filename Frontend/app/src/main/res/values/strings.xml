@@ -34,10 +34,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="angebote">Angebote</string>
     <string name="eislaufen">Eislaufen</string>
-    <string name="datum">13.03.2022</string>
+    <string name="datum" translatable="false">13.03.2022</string>
     <string name="teilnehmen">Teilnehmen</string>
     <string name="maerz_2022">März 2022</string>
-    <string name="_12">12</string>
+    <string name="_12" translatable="false">12</string>
     <string name="hello">Hello</string>
     <string name="online_games">Online Games</string>
     <string name="prompt_password">Password</string>
@@ -46,4 +46,11 @@
     <string name="meine_angebote">MeineAngebote</string>
     <string name="benachrichtigungen">Benachrichtigungen</string>
     <string name="freunde_einladen">Freunde einladen</string>
+    <string name="sommercamp">Sommercamp</string>
+    <string name="stuttgart_waldau" translatable="false">Stuttgart Waldau</string>
+    <string name="fu_ball">Fußball</string>
+    <string name="bad_cannstatt" translatable="false">Bad Cannstatt</string>
+    <string name="discord_channel">Discord Channel</string>
+    <string name="teilnahme_bestaetigt">nehme teil</string>
+    <string name="_19_00_uhr">19:00 Uhr</string>
 </resources>

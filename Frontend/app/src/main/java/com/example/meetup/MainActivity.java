@@ -1,17 +1,10 @@
 package com.example.meetup;
 
-import android.app.FragmentManager;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
 
-import com.example.meetup.ui.ui.login.LoginFragment;
-import com.example.meetup.ui.ui.login.LoginViewModel;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -24,38 +17,39 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.meetup.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
-    //ImageButton editbtn = findViewById(R.id.editBtn);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-		//editbtn.setOnClickListener(this::editProfile);
-
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
-//        ImageButton editbtn = findViewById(R.id.editBtn);
-//        editbtn.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                editProfil();
-//            }
-//        });
     }
 
     @Override
     public void onClick(View v) {
-        if(v.getId() == R.id.editBtn)
-        {
-            getSupportFragmentManager().beginTransaction().replace(R.id.container, new LoginFragment()).commit();
-            //editbtn.setVisibility(View.GONE);
-        }
-    }
+        Button join1 = findViewById(R.id.teilnehmen1);
+        Button join2 = findViewById(R.id.teilnehmen2);
+        Button join3 = findViewById(R.id.teilnehmen3);
+        Button join4 = findViewById(R.id.teilnehmen4);
 
+        if(join1.isPressed()) {
+            join1.setText(R.string.teilnahme_bestaetigt);
+        }
+        if(join2.isPressed()){
+            join2.setText(R.string.teilnahme_bestaetigt);
+        }
+        if(join3.isPressed()){
+            join3.setText(R.string.teilnahme_bestaetigt);
+        }
+        if(join4.isPressed()){
+            join4.setText(R.string.teilnahme_bestaetigt);
+        }
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -80,8 +74,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         NavigationUI.setupWithNavController(navigationView, navController);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
-    }
-
-    public void editProfile(View view) {
     }
 }

@@ -39,4 +39,13 @@
     <string name="meine_angebote">MeineAngebote</string>
     <string name="freunde_einladen">Freunde einladen</string>
     <string name="benachrichtigungen">Benachrichtigungen</string>
+    <string name="angebote">Angebote</string>
+    <string name="eislaufen">Eislaufen</string>
+    <string name="teilnehmen">Teilnehmen</string>
+    <string name="maerz_2022">März 2022</string>
+    <string name="sommercamp">Sommercamp</string>
+    <string name="fu_ball">Fußball</string>
+    <string name="discord_channel">Discord Kanal</string>
+    <string name="teilnahme_bestaetigt">nehme teil</string>
+    <string name="_19_00_uhr">19:00 Uhr</string>
 </resources>

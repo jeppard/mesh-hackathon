@@ -37,6 +37,15 @@
     <string name="username">Username</string>
     <string name="meine_termine">My Plans</string>
     <string name="freunde_einladen">Invite Friends</string>
-    <string name="meine_angebote">My Ads</string>
+    <string name="meine_angebote">My Offers</string>
     <string name="benachrichtigungen">Message</string>
+    <string name="angebote">Offers</string>
+    <string name="eislaufen">Ice Skating</string>
+    <string name="teilnehmen">Join</string>
+    <string name="maerz_2022">March 2022</string>
+    <string name="sommercamp">Summercamp</string>
+    <string name="fu_ball">Soccer</string>
+    <string name="discord_channel">Discord Channel</string>
+    <string name="teilnahme_bestaetigt">joined</string>
+    <string name="_19_00_uhr">19:00 Uhr</string>
 </resources>
